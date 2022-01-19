@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    position: sticky;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 100;
+    padding: 5px 2px;
+    top:0;
+    left: 0;
+    color: black;
+    background-color: transparent;
+}
+.navbar__logo{
+    width: 70px;
+    object-fit: contain;
+    
+    
+}
+.navbar__items{
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+   flex-wrap: wrap;
+   
+}
+.navbar__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
